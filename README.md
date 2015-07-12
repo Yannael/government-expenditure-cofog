@@ -1,15 +1,12 @@
-Start with a short description of the dataset (the first sentence and first paragraph should be extractable to provide short standalone descriptions).
-
-Unlike other sections this section SHOULD NOT have a heading as it starts the README. (i.e. you do not need the heading ## Introduction 
+Government expenditure, following COFOG nomenclature. Data collected from OECD, for the period 2008-2013.
 
 ##Data
 
-Put specific information about the data in this section. This can be things like information about the source of the data, the specific structure of the data, missing values etc.
-
+Data collected from OECD, for the period 2008-2013.
 
 ## Preparation
 
-Put information on preparing the data in this section. In particular, any instructions about how to run any preparation and processing scripts to generate the data should go here.
+Run preprocessing.R to retrieve data from OECD API and create all CSV and JSON files. 
 
 ## License
 
