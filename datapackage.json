@@ -12,7 +12,7 @@
   "url": "",
   "base": "",
   "image": "",
-  "license": [
+  "licenses": [
     {
       "id": "odc-pddl",
       "url": "http://opendatacommons.org/licenses/pddl/",
