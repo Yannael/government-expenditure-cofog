@@ -1,0 +1,124 @@
+{
+  "name": "government-expenditure-cofog",
+  "title": "Government expenditure, COFOG nomenclature",
+  "description": "Government expenditure, COFOG nomenclature.",
+  "maintainer": [],
+  "contributors": [],
+  "version": "1",
+  "last_updated": "2015-07-12",
+  "homepage": "",
+  "keywords": [],
+  "publisher": [],
+  "url": "",
+  "base": "",
+  "image": "",
+  "license": [
+    {
+      "type": "PDDL-1.0",
+      "url": "http://opendatacommons.org/licenses/pddl/"
+    }
+  ],
+  "dataDependencies": "",
+  "sources": [
+    {
+      "name": "OECD",
+      "web": "http://stats.oecd.org"
+    }
+  ],
+  "resources": [
+    {
+      "path": "data/government-expenditure-cofog-belgium.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "cofog-level-1",
+            "type": "number"
+          },
+          {
+            "name": "cofog-level-2",
+            "type": "number"
+          },
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "currency",
+            "type": "string"
+          },
+          {
+            "name": "2008",
+            "type": "number"
+          },
+          {
+            "name": "2009",
+            "type": "number"
+          },
+          {
+            "name": "2010",
+            "type": "number"
+          },
+          {
+            "name": "2011",
+            "type": "number"
+          },
+          {
+            "name": "2012",
+            "type": "number"
+          },
+          {
+            "name": "2013",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/government-expenditure-cofog-united-kingdom.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "cofog-level-1",
+            "type": "number"
+          },
+          {
+            "name": "cofog-level-2",
+            "type": "number"
+          },
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "currency",
+            "type": "string"
+          },
+          {
+            "name": "2008",
+            "type": "number"
+          },
+          {
+            "name": "2009",
+            "type": "number"
+          },
+          {
+            "name": "2010",
+            "type": "number"
+          },
+          {
+            "name": "2011",
+            "type": "number"
+          },
+          {
+            "name": "2012",
+            "type": "number"
+          },
+          {
+            "name": "2013",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
