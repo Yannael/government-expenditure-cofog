@@ -15,7 +15,8 @@
   "license": [
     {
       "type": "PDDL-1.0",
-      "url": "http://opendatacommons.org/licenses/pddl/"
+      "url": "http://opendatacommons.org/licenses/pddl/",
+      "name": "Public Domain Dedication and License"
     }
   ],
   "dataDependencies": "",
